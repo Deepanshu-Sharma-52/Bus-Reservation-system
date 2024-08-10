@@ -17,7 +17,7 @@ document.getElementById('reservationForm').addEventListener('submit', function(e
     document.getElementById('output').innerHTML = output;
 
     // Send email
-    emailjs.send("service_xtoz7xg", "template_uu4qh0f", {
+    emailjs.send("service_m1fngzj", "template_2u40f9j", {
         from: from,
         to: to,
         date: date,
